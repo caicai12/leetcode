@@ -34,14 +34,12 @@ public class MaxSubArray {
                 result[2] = i;
             }
         }
-
         return result;
     }
 
     @Test
     public void test1() {
         MaxSubArray maxSubArray = new MaxSubArray();
-
         System.out.println(Arrays.toString(maxSubArray.solve(new int[]{1, 2, 3, 4, 5, 6})));
     }
 }
