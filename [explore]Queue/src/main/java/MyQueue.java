@@ -3,24 +3,51 @@
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author 菜菜
+ * @date 2019/8/5
+ **/
 public class MyQueue {
-    // store elements
+    /**
+     * @author:caiyq(蔡永琪)
+     * @date: 2019/8/5
+     * @param
+     * @return
+     * @description: store elements
+     */
     private List<Integer> data;
-    // a pointer to indicate the start position
+    /**
+     * @author:caiyq(蔡永琪)
+     * @date: 2019/8/5
+     * @param
+     * @return
+     * @description:a pointer to indicate the start position
+     */
     private int p_start;
+
     public MyQueue() {
         data = new ArrayList<Integer>();
         p_start = 0;
     }
+
     /**
-     * Insert an element into the queue. Return true if the operation is successful.
+     * @param [x]
+     * @return boolean
+     * @author:caiyq(蔡永琪)
+     * @date: 2019/8/5
+     * @description: 添加元素
      */
     public boolean enQueue(int x) {
         data.add(x);
         return true;
     }
+
     /**
-     * Delete an element from the queue. Return true if the operation is successful.
+     * @param []
+     * @return boolean
+     * @author:caiyq(蔡永琪)
+     * @date: 2019/8/5
+     * @description:Delete an element from the queue. Return true if the operation is successful.
      */
     public boolean deQueue() {
         if (isEmpty() == true) {
@@ -31,32 +58,41 @@ public class MyQueue {
     }
 
     /**
-     * Get the front item from the queue.
+     * @param []
+     * @return int
+     * @author:caiyq(蔡永琪)
+     * @date: 2019/8/5
+     * @description: Get the front item from the queue.
      */
-    public int Front() {
+    public int front() {
         return data.get(p_start);
     }
 
     /**
-     * Checks whether the queue is empty or not.
+     * @param []
+     * @return boolean
+     * @author:caiyq(蔡永琪)
+     * @date: 2019/8/5
+     * @description: 判断是否为空
      */
     public boolean isEmpty() {
         return p_start >= data.size();
     }
+
     public static void main(String[] args) {
         MyQueue q = new MyQueue();
         q.enQueue(5);
         q.enQueue(3);
         if (q.isEmpty() == false) {
-            System.out.println(q.Front());
+            System.out.println(q.front());
         }
         q.deQueue();
         if (q.isEmpty() == false) {
-            System.out.println(q.Front());
+            System.out.println(q.front());
         }
         q.deQueue();
         if (q.isEmpty() == false) {
-            System.out.println(q.Front());
+            System.out.println(q.front());
         }
     }
 }
