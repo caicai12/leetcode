@@ -13,6 +13,38 @@ public class MyCircularQueue {
     private int tail;
     private int size;
 
+    public void setData(int[] data) {
+        this.data = data;
+    }
+
+    public void setHead(int head) {
+        this.head = head;
+    }
+
+    public void setTail(int tail) {
+        this.tail = tail;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
+    }
+
+    public int[] getData() {
+        return data;
+    }
+
+    public int getHead() {
+        return head;
+    }
+
+    public int getTail() {
+        return tail;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
     /** Initialize your data structure here. Set the size of the queue to be k. */
     public MyCircularQueue(int k) {
         data = new int[k];
