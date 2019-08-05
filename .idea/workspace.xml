@@ -8,10 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce385e91-de99-4e13-9d76-ab57b6a23494" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/[explore]Queue/src/main/java/MyCircularQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[explore]Queue/[explore]Queue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/[explore]Queue/[explore]Queue.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[explore]Queue/src/main/java/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/[explore]Queue/src/main/java/MyQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[explore]Queue/src/main/java/ccQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/[explore]Queue/src/main/java/CcQueue.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,18 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/[explore]Queue/src/main/java/MyQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-105">
-              <caret line="83" column="10" lean-forward="true" selection-start-line="82" selection-end-line="95" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/[0227][Basic Calculator II]/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -70,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/[explore]Queue/src/main/java/CcQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1848">
-              <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+            <state relative-caret-position="-1139">
+              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#848#849#0" expanded="true" />
@@ -82,6 +68,22 @@
                 <element signature="e#906#907#0" expanded="true" />
                 <element signature="e#947#948#0" expanded="true" />
                 <element signature="e#1029#1030#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/[explore]Queue/src/main/java/MyCircularQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1601#1602#0" expanded="true" />
+                <element signature="e#1634#1635#0" expanded="true" />
+                <element signature="e#1726#1727#0" expanded="true" />
+                <element signature="e#1776#1777#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,7 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/[0292][Nim Game]/src/Solution.java" />
         <option value="$PROJECT_DIR$/[0438][Find All Anagrams in a String]/src/Main.java" />
         <option value="$PROJECT_DIR$/[0438][Find All Anagrams in a String]/src/Solution2.java" />
         <option value="$PROJECT_DIR$/[0438][Find All Anagrams in a String]/src/Solution.java" />
@@ -212,6 +213,7 @@
         <option value="$PROJECT_DIR$/[explore]Queue/src/main/java/MyQueue.java" />
         <option value="$PROJECT_DIR$/[explore]Queue/src/main/java/ccQueue.java" />
         <option value="$PROJECT_DIR$/[explore]Queue/src/main/java/CcQueue.java" />
+        <option value="$PROJECT_DIR$/[explore]Queue/src/main/java/MyCircularQueue.java" />
       </list>
     </option>
   </component>
@@ -223,10 +225,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="635" />
-    <option name="y" value="701" />
+    <option name="x" value="437" />
+    <option name="y" value="172" />
     <option name="width" value="1055" />
-    <option name="height" value="660" />
+    <option name="height" value="994" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -440,21 +442,7 @@
       <workItem from="1562853743876" duration="3513000" />
       <workItem from="1564906974812" duration="6261000" />
       <workItem from="1564963120022" duration="4287000" />
-      <workItem from="1564968061793" duration="508000" />
-    </task>
-    <task id="LOCAL-00044" summary="commit">
-      <created>1560770441688</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1560770441688</updated>
-    </task>
-    <task id="LOCAL-00045" summary="commit">
-      <created>1560826447783</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1560826447783</updated>
+      <workItem from="1564968061793" duration="3399000" />
     </task>
     <task id="LOCAL-00046" summary="commit">
       <created>1560861999518</created>
@@ -785,7 +773,21 @@
       <option name="project" value="LOCAL" />
       <updated>1564926850063</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="commit">
+      <created>1564968590176</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1564968590176</updated>
+    </task>
+    <task id="LOCAL-00094" summary="commit">
+      <created>1564968606375</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1564968606375</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -821,12 +823,22 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="313661000" />
+    <option name="totallyTimeSpent" value="316552000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973262" visible="true" weight="0.17761394" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973262" visible="true" weight="0.17773306" />
       <window_info id="JRebel" order="1" side_tool="true" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -853,23 +865,23 @@
       <window_info anchor="bottom" id="Thumbnails" order="16" weight="0.2372215" />
       <window_info anchor="bottom" id="MyBatis Log" order="17" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="18" />
-      <window_info active="true" anchor="bottom" id="Inspection Results" order="19" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Inspection Results" order="19" visible="true" weight="0.04249292" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="right" id="Maven" order="7" />
-      <window_info anchor="right" id="Key Promoter X" order="8" />
-      <window_info anchor="right" id="R Packages" order="9" />
-      <window_info anchor="right" id="R Graphics" order="10" />
-      <window_info anchor="right" id="SciView" order="11" />
-      <window_info anchor="right" id="Capture Analysis" order="12" />
-      <window_info anchor="right" id="aiXcoder" order="13" weight="0.3297587" />
-      <window_info anchor="right" id="Theme Preview" order="14" />
-      <window_info anchor="right" id="Translate" order="15" weight="0.3297587" />
+      <window_info anchor="right" id="Translate" order="1" visible="true" weight="0.3293092" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
+      <window_info anchor="right" id="Key Promoter X" order="9" />
+      <window_info anchor="right" id="R Packages" order="10" />
+      <window_info anchor="right" id="R Graphics" order="11" />
+      <window_info anchor="right" id="SciView" order="12" />
+      <window_info anchor="right" id="Capture Analysis" order="13" />
+      <window_info anchor="right" id="aiXcoder" order="14" weight="0.3297587" />
+      <window_info anchor="right" id="Theme Preview" order="15" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1156,6 +1168,10 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
       <expression>
@@ -1243,16 +1259,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/[0228][Summary Ranges]/src/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Contended.class" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/TimerTask.java" />
@@ -1506,8 +1512,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/[explore]Queue/src/main/java/CcQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1848">
-          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+        <state relative-caret-position="-1139">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#848#849#0" expanded="true" />
@@ -1515,6 +1521,20 @@
             <element signature="e#906#907#0" expanded="true" />
             <element signature="e#947#948#0" expanded="true" />
             <element signature="e#1029#1030#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/[explore]Queue/src/main/java/MyCircularQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1601#1602#0" expanded="true" />
+            <element signature="e#1634#1635#0" expanded="true" />
+            <element signature="e#1726#1727#0" expanded="true" />
+            <element signature="e#1776#1777#0" expanded="true" />
           </folding>
         </state>
       </provider>
